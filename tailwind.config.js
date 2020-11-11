@@ -1,12 +1,47 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
+  future: {},
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        persimmon: {
+          50: "#ffeeea",
+          100: "#ffd4ca",
+          200: "#ffb7a7",
+          300: "#ff9a83",
+          400: "#ff8469",
+          500: "#ff6e4e",
+          600: "#ff6647",
+          700: "#ff5b3d",
+          800: "#ff5135",
+          900: "#ff3f25",
+          A100: "#ffffff",
+          A200: "#ffffff",
+          A400: "#ffd7d3",
+          A700: "#ffc0b9",
+        },
+        stratos: {
+          50: "#e1e0e7",
+          100: "#b3b3c2",
+          200: "#80809a",
+          300: "#4d4d72",
+          400: "#272653",
+          500: "#010035",
+          600: "#010030",
+          700: "#010028",
+          800: "#010022",
+          900: "#000016",
+          A100: "#5656ff",
+          A200: "#2323ff",
+          A400: "#0000ef",
+          A700: "#0000d5",
+        },
+      },
+      fontFamily: {
+        sans: ["Montserrat", "-apple-system", "BlinkMacSystemFont"],
+      },
+    },
   },
   variants: {},
   plugins: [],
-}
+};
